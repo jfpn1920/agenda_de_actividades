@@ -3,23 +3,35 @@
 <p style=" text-align: justify;">Este proyecto se llama <b>agenda de actividades</b> y fue desarrollado en <b>pseint</b> como un ejercicio práctico para fortalecer la lógica de programación mediante la creación de un sistema de gestión de actividades desde la consola. En este proyecto podrás <b>registrar, consultar, modificar y eliminar</b> actividades de una manera sencilla e interactiva. Además, el programa permite organizar la información de cada actividad mediante datos como su nombre, fecha y hora, facilitando su consulta y administración. Durante su desarrollo se aplicaron diferentes estructuras fundamentales de programación, como variables, arreglos, condicionales, ciclos repetitivos y estructuras de selección. También se implementaron procesos de búsqueda, edición y eliminación de registros para simular el funcionamiento de un sistema de gestión de información. El proyecto fue diseñado para poner en práctica los conocimientos adquiridos y comprender cómo diferentes estructuras de programación pueden trabajar conjuntamente dentro de una aplicación. Finalmente, esta lógica puede servir como base para desarrollar versiones más avanzadas del mismo proyecto utilizando otros lenguajes de programación y tecnologías.</p>
 
 <h1 align="center">Explicación del proyecto</h1>
-<pre style="width: 28%;">
- //-----------------------------------------//
- //--|menu_pricipal_agenda_de_actividades|--//
- //-----------------------------------------//
- Escribir "menu principal agenda de actividades"
- Escribir "1) agregar actividad"
- Escribir "2) editar actividad"
- Escribir "3) eliminar actividad"
- Escribir "4) buscar actividad"
- Escribir "5) listar actividades"
- Escribir "6) ver detalles de una actividad"
- Escribir "7) salir"
- Escribir "seleccione una opcion:"
+
+<div style="display: flex; gap: 40px; align-items: flex-start;">
+
+<div style="width: 31%;">
+<pre>
+//-----------------------------------------//
+//--|menu_pricipal_agenda_de_actividades|--//
+//-----------------------------------------//
+Escribir "menu principal agenda de actividades"
+Escribir "1) agregar actividad"
+Escribir "2) editar actividad"
+Escribir "3) eliminar actividad"
+Escribir "4) buscar actividad"
+Escribir "5) listar actividades"
+Escribir "6) ver detalles de una actividad"
+Escribir "7) salir"
+Escribir "seleccione una opcion:"
 </pre>
+</div>
 
-<p style=" text-align: justify;"><strong>Agenda de Actividades</strong> es un programa de consola que permite administrar actividades mediante un menú principal, cada actividad registrada contiene información como (id, nombre de la actividad, fecha y hora), la información se almacena temporalmente mediante <strong>arreglos</strong>, permitiendo gestionar hasta <strong>100 actividades</strong> durante la ejecución del programa, por ende, el proyecto fue diseñado para practicar la construcción de un sistema de gestión utilizando estructuras fundamentales de programación.</p>
+<div style="width: 50%;">
 
+<p style="text-align: justify; width: 130%; margin-left: -65px;">
+<strong>Agenda de Actividades</strong> es un programa de consola que permite administrar actividades mediante un menú principal, en donde cada actividad registrada contiene información como (ID, nombre de la actividad, fecha y hora). La información se almacena temporalmente mediante <strong>arreglos</strong>, permitiendo gestionar hasta <strong>100 actividades</strong> durante la ejecución del programa. Por ende, el proyecto fue diseñado para practicar la construcción de un sistema de gestión utilizando estructuras fundamentales de programación.
+</p>
+
+</div>
+
+</div>
 
 ---
 
