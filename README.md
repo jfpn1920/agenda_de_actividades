@@ -6,7 +6,7 @@
 <table width="100%">
 <tr>
 <!-- ==================== IZQUIERDA ==================== -->
-<td width="17%" valign="top">
+<td width="17%" >
 <pre>
  //-----------------------------------------//
  //--|menu_pricipal_agenda_de_actividades|--//
@@ -23,7 +23,7 @@
 </pre>
 </td>
 
-<td width="50%" valign="top">
+<td width="50%">
 <p style=" text-align: justify;"><strong>Agenda de Actividades</strong> es un programa de consola que permite administrar actividades mediante un menú principal, cada actividad registrada contiene información como (ID, Nombre de la actividad, Fecha y Hora), la información se almacena temporalmente mediante <strong>arreglos</strong>, permitiendo gestionar hasta <strong>100 actividades</strong> durante la ejecución del programa, por ende, el proyecto fue diseñado para practicar la construcción de un sistema de gestión utilizando estructuras fundamentales de programación.</p>
 
 </td>
