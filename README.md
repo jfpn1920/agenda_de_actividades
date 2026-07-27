@@ -6,11 +6,15 @@
 <table width="100%">
 <tr>
 <!-- ==================== IZQUIERDA ==================== -->
-<td width="17%" >
+<td width="17%" valign="top">
+
+<h3>💻 Código del menú principal</h3>
+
 <pre>
  //-----------------------------------------//
  //--|menu_pricipal_agenda_de_actividades|--//
  //-----------------------------------------//
+
  Escribir "menu principal agenda de actividades"
  Escribir "1) agregar actividad"
  Escribir "2) editar actividad"
@@ -21,10 +25,37 @@
  Escribir "7) salir"
  Escribir "seleccione una opcion:"
 </pre>
+
 </td>
 
-<td width="50%">
-<p style=" text-align: justify;"><strong>Agenda de Actividades</strong> es un programa de consola que permite administrar actividades mediante un menú principal, cada actividad registrada contiene información como (ID, Nombre de la actividad, Fecha y Hora), la información se almacena temporalmente mediante <strong>arreglos</strong>, permitiendo gestionar hasta <strong>100 actividades</strong> durante la ejecución del programa, por ende, el proyecto fue diseñado para practicar la construcción de un sistema de gestión utilizando estructuras fundamentales de programación.</p>
+
+<!-- ==================== DERECHA ==================== -->
+<td width="50%" valign="top">
+
+<h3>📖 ¿Qué es el proyecto?</h3>
+
+<p>
+<strong>Agenda de Actividades</strong> es un programa de consola que permite administrar actividades mediante un menú principal.
+</p>
+
+<p>
+Cada actividad registrada contiene información como:
+</p>
+
+<ul>
+<li>🆔 ID</li>
+<li>📝 Nombre de la actividad</li>
+<li>📅 Fecha</li>
+<li>🕐 Hora</li>
+</ul>
+
+<p>
+La información se almacena temporalmente mediante <strong>arreglos</strong>, permitiendo gestionar hasta <strong>100 actividades</strong> durante la ejecución del programa.
+</p>
+
+<p>
+El proyecto fue diseñado para practicar la construcción de un sistema de gestión utilizando estructuras fundamentales de programación.
+</p>
 
 </td>
 
