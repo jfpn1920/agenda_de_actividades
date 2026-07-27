@@ -4,10 +4,9 @@
 
 <h1 align="center">Explicación del proyecto</h1>
 
-<table border="none" width="100%">
-<tr>
+<div style="width: 100%; overflow: hidden;">
 
-<td width="22%" valign="top">
+<div style="float: left; width: 45%;">
 
 <pre>
 //-----------------------------------------//
@@ -24,18 +23,19 @@ Escribir "7) salir"
 Escribir "seleccione una opcion:"
 </pre>
 
-</td>
+</div>
 
-<td width="55%" valign="top">
+<div style="float: right; width: 50%;">
 
 <p style="text-align: justify;">
 <strong>Agenda de Actividades</strong> es un programa de consola que permite administrar actividades mediante un menú principal, en donde cada actividad registrada contiene información como (ID, nombre de la actividad, fecha y hora). La información se almacena temporalmente mediante <strong>arreglos</strong>, permitiendo gestionar hasta <strong>100 actividades</strong> durante la ejecución del programa. Por ende, el proyecto fue diseñado para practicar la construcción de un sistema de gestión utilizando estructuras fundamentales de programación.
 </p>
 
-</td>
+</div>
 
-</tr>
-</table>
+</div>
+
+<div style="clear: both;"></div>
 
 ---
 
