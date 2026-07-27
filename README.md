@@ -6,7 +6,7 @@
 
 <div style="width: 100%; overflow: hidden;">
 
-<div style="float: left; width: 45%;">
+<div style="float: left; width: 15%;">
 
 <pre>
 //-----------------------------------------//
