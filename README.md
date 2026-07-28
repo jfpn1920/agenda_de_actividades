@@ -69,7 +69,7 @@
 ### ✅ Variables lógicas
 <p align="justify">La variable lógica <b>encontrado</b> se utiliza para controlar si una actividad fue localizada correctamente durante los procesos de búsqueda, edición, eliminación y consulta de detalles. Inicialmente su valor es <b>falso</b>, indicando que aún no se ha encontrado ninguna actividad. Si el programa localiza una actividad con el id ingresado por el usuario, su valor cambia a <b>verdadero</b>, permitiendo ejecutar la operación correspondiente y evitar mostrar mensajes de actividad no encontrada cuando el registro sí existe, siendo asi de esta manera <b>encontrado <- falso</b> y posteriormente <b>encontrado <- verdadero</b>.</p>
 
-<h2>¿Cómo se implementaron las operaciones crud en el proyecto?</h2>
+<h2 align="center">¿Cómo se implementaron las operaciones crud en el proyecto?</h2>
 <p align="justify">La implementación de las operaciones <b>crud</b> constituye la base del funcionamiento de este proyecto, ya que permite administrar las actividades registradas mediante diferentes acciones de gestión de datos. Cada una de estas operaciones fue desarrollada utilizando las estructuras de programación disponibles en <b>pseint</b>, como variables, arreglos, condicionales y ciclos repetitivos. Gracias a esta lógica, el usuario puede crear nuevos registros, consultar la información almacenada, modificar actividades existentes y eliminar aquellas que ya no sean necesarias. De esta manera, el proyecto simula el comportamiento de un sistema básico de gestión de información y permite comprender cómo se aplican las operaciones crud en un entorno práctico.</p>
 
 <h2 align="center" style=" border: none;">Diagrama de flujo del proyecto</h2>
@@ -123,7 +123,7 @@
 <p align="justify">El objetivo principal de este proyecto es fortalecer la <b>lógica de programación</b> mediante la construcción de un sistema funcional de gestión de actividades. A lo largo de su desarrollo se aplican diferentes estructuras fundamentales de programación para comprender cómo interactúan entre sí dentro de una aplicación. Además, el proyecto busca desarrollar habilidades para resolver problemas de manera organizada y comprender la implementación de operaciones <b>crud</b> utilizando <b>pseint</b>. Los conocimientos adquiridos durante este ejercicio constituyen una base sólida para el desarrollo de aplicaciones más complejas en otros lenguajes de programación y tecnologías.</p>
 
 
-<h2>¿Qué aprendizajes se obtuvieron durante el desarrollo del proyecto?</h2>
+<h2 align="center">¿Qué aprendizajes se obtuvieron durante el desarrollo del proyecto?</h2>
 <p align="justify">Durante el desarrollo de este proyecto se fortalecieron diferentes conocimientos relacionados con la lógica de programación y la construcción de aplicaciones de consola en <b>pseint</b>. Además de implementar un sistema funcional de gestión de actividades, fue posible comprender cómo interactúan variables, arreglos, estructuras condicionales, ciclos repetitivos y operaciones <b>crud</b> para resolver un problema de manera organizada. Estos aprendizajes constituyen una base importante para desarrollar proyectos más complejos utilizando otros lenguajes de programación y tecnologías, entonces, los principales aprendizajes fueron:</p>
 
 * Trabajar con arreglos.
