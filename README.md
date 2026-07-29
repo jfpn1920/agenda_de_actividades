@@ -106,4 +106,4 @@
 * Aplicar operaciones crud.
 * Controlar diferentes situaciones durante la ejecución.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:007ACC,100:5DADE2&height=110&section=footer&text=©%202026%20jfpn1920%20%7C%20Lógica%20de%20programación hecho%20en%20pseint%20%7C%20Agenda%20de%20actividades&fontSize=10&fontColor=FFFFFF&fontAlignY=87.5"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:007ACC,100:5DADE2&height=110&section=footer&text=©%202026%20jfpn1920%20%7C%20Lógica%20de%20programación%20hecha%20en%20PSeInt%20%7C%20Agenda%20de%20actividades&fontSize=10&fontColor=FFFFFF&fontAlignY=87.5"/>
