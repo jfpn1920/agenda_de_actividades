@@ -20,7 +20,6 @@ Algoritmo agenda_de_actividades
 		Escribir "5) listar actividades"
 		Escribir "6) ver detalles de una actividad"
 		Escribir "7) salir"
-		Escribir ""
 		Escribir "seleccione una opcion:"
 		Leer opcion
 		Segun opcion Hacer
@@ -48,7 +47,6 @@ Algoritmo agenda_de_actividades
 					Para i <- 1 Hasta cantidad Hacer
 						Escribir "id: ",id[i]," | ",nombre[i]," | ",fecha[i]," | ",hora[i]
 					FinPara
-					Escribir ""
 					Escribir "ingrese el id de la actividad:"
 					Leer idBuscar
 					encontrado <- Falso
@@ -61,7 +59,6 @@ Algoritmo agenda_de_actividades
 							Escribir "nueva hora:"
 							Leer hora[i]
 							encontrado <- Verdadero
-							Escribir ""
 							Escribir "actividad actualizada."
 						FinSi
 					FinPara
@@ -76,12 +73,10 @@ Algoritmo agenda_de_actividades
 				Si cantidad = 0 Entonces
 					Escribir "no hay actividades registradas."
 				SiNo
-					Escribir ""
 					Escribir "actividades registrados a eliminar"
 					Para i <- 1 Hasta cantidad Hacer
 						Escribir "id: ",id[i]," | ",nombre[i]," | ",fecha[i]," | ",hora[i]
 					FinPara
-					Escribir ""
 					Escribir "ingrese el id de la actividad:"
 					Leer idBuscar
 					encontrado <- Falso
@@ -97,7 +92,6 @@ Algoritmo agenda_de_actividades
 							FinSi
 							cantidad <- cantidad - 1
 							encontrado <- Verdadero
-							Escribir ""
 							Escribir "actividad eliminada."
 						FinSi
 					FinPara
@@ -112,12 +106,10 @@ Algoritmo agenda_de_actividades
 				Si cantidad = 0 Entonces
 					Escribir "no hay actividades registradas."
 				SiNo
-					Escribir ""
 					Escribir "actividades registrados a buscar"
 					Para i <- 1 Hasta cantidad Hacer
 						Escribir "id: ",id[i]," | ",nombre[i]," | ",fecha[i]," | ",hora[i]
 					FinPara
-					Escribir ""
 					Escribir "ingrese el id de la actividad:"
 					Leer idBuscar
 					encontrado <- Falso
@@ -143,7 +135,6 @@ Algoritmo agenda_de_actividades
 				Si cantidad = 0 Entonces
 					Escribir "no hay actividades registradas."
 				SiNo
-					Escribir ""
 					Escribir "lista de actividades"
 					Para i <- 1 Hasta cantidad Hacer
 						Escribir "id: ",id[i]," | ",nombre[i]," | ",fecha[i]," | ",hora[i]
@@ -156,18 +147,15 @@ Algoritmo agenda_de_actividades
 				Si cantidad = 0 Entonces
 					Escribir "no hay actividades registradas."
 				SiNo
-					Escribir ""
 					Escribir "actividades registrados"
 					Para i <- 1 Hasta cantidad Hacer
 						Escribir "id: ",id[i]," | ",nombre[i]," | ",fecha[i]," | ",hora[i]
 					FinPara
-					Escribir ""
 					Escribir "ingrese el id de la actividad:"
 					Leer idBuscar
 					encontrado <- Falso
 					Para i <- 1 Hasta cantidad Hacer
 						Si id[i]=idBuscar Entonces
-							Escribir ""
 							Escribir "detalles de la actividad"
 							Escribir "id: ",id[i]
 							Escribir "nombre: ",nombre[i]
