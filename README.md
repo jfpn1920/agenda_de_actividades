@@ -1,4 +1,4 @@
-<h1 align="center">¡Bienvenidos! a mi proyecto agenda de actividades</h1>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:007ACC,100:5DADE2&height=260&section=header&text=Agenda%20de actividades&desc=Bienvenidos %20usuarios a mi proyecto%20&fontSize=48&fontColor=ffffff&descSize=18&fontAlignY=38&descAlignY=58&animation=fadeIn"/>
 
 <p  align="justify">Este proyecto se llama <b>agenda de actividades</b> y fue desarrollado en <b>pseint</b> como un ejercicio práctico para fortalecer la lógica de programación mediante la creación de un sistema de gestión de actividades desde la consola. En este proyecto podrás <b>registrar, consultar, modificar y eliminar</b> actividades de una manera sencilla e interactiva. Además, el programa permite organizar la información de cada actividad mediante datos como su nombre, fecha y hora, facilitando su consulta y administración. Durante su desarrollo se aplicaron diferentes estructuras fundamentales de programación, como variables, arreglos, condicionales, ciclos repetitivos y estructuras de selección. También se implementaron procesos de búsqueda, edición y eliminación de registros para simular el funcionamiento de un sistema de gestión de información. El proyecto fue diseñado para poner en práctica los conocimientos adquiridos y comprender cómo diferentes estructuras de programación pueden trabajar conjuntamente dentro de una aplicación. Finalmente, esta lógica puede servir como base para desarrollar versiones más avanzadas del mismo proyecto utilizando otros lenguajes de programación y tecnologías.</p>
 
@@ -72,39 +72,9 @@
 <h2 align="center">¿Cómo se implementaron las operaciones crud en el proyecto?</h2>
 <p align="justify">La implementación de las operaciones <b>crud</b> constituye la base del funcionamiento de este proyecto, ya que permite administrar las actividades registradas mediante diferentes acciones de gestión de datos. Cada una de estas operaciones fue desarrollada utilizando las estructuras de programación disponibles en <b>pseint</b>, como variables, arreglos, condicionales y ciclos repetitivos. Gracias a esta lógica, el usuario puede crear nuevos registros, consultar la información almacenada, modificar actividades existentes y eliminar aquellas que ya no sean necesarias. De esta manera, el proyecto simula el comportamiento de un sistema básico de gestión de información y permite comprender cómo se aplican las operaciones crud en un entorno práctico.</p>
 
-<h2 align="center" style=" border: none;">Diagrama de flujo del proyecto</h2>
+<h2 align="center">Diagrama de flujo del proyecto</h2>
 
-```text
-                 ┌──────────────────────┐
-                 │    MENÚ PRINCIPAL    │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │ Seleccionar opción   │
-                 └──────────┬───────────┘
-                            │
-          ┌─────────────────┼─────────────────┐
-          │                 │                 │
-          ▼                 ▼                 ▼
-       Agregar           Editar           Eliminar
-          │                 │                 │
-          └─────────────────┼─────────────────┘
-                            │
-             ┌──────────────┼──────────────┐
-             ▼              ▼              ▼
-           Buscar         Listar        Detalles
-             │              │              │
-             └──────────────┼──────────────┘
-                            ▼
-                     ¿Salir del programa?
-                            │
-                     ┌──────┴──────┐
-                    NO             SÍ
-                     │              │
-                     └──► MENÚ      ▼
-                            Programa finalizado
-```
+<img src="./agenda_de_actividades.drawio.png" alt="Diagrama de flujo de Agenda de Actividades" width="100%">
 
 <h2 align="center">🛡️ Validaciones del programa</h2>
 <p align="justify">El programa incorpora diferentes validaciones para garantizar un funcionamiento más seguro y organizado durante su ejecución. Estas comprobaciones permiten evitar operaciones sobre registros inexistentes, controlar las opciones ingresadas por el usuario y mostrar mensajes adecuados cuando ocurre alguna situación específica. Gracias a estas validaciones, el sistema mantiene un flujo de trabajo más estable y facilita la interacción con el usuario.</p>
@@ -136,10 +106,4 @@
 * Aplicar operaciones crud.
 * Controlar diferentes situaciones durante la ejecución.
 
----
-
-## 👨‍💻 Autor
-
-**Juan Felipe**
-
-Proyecto desarrollado como parte de una colección de ejercicios prácticos orientados al fortalecimiento de la lógica de programación y la aplicación progresiva de estos conocimientos en diferentes lenguajes y tecnologías.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:007ACC,100:5DADE2&height=110&section=footer&text=©%202026%20jfpn1920%20%7C%20Lógica%20de%20programación hecho%20en%20pseint%20%7C%20Agenda%20de%20actividades&fontSize=10&fontColor=FFFFFF&fontAlignY=87.5"/>
